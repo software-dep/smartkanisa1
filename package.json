@@ -1,0 +1,50 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch": "npm run development -- --watch",
+        "watch-poll": "npm run watch -- --watch-poll",
+        "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "prod": "npm run production",
+        "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+    },
+    "devDependencies": {
+        "@iconify/icons-mdi": "^1.0.12",
+        "@iconify/react": "^1.1.1",
+        "axios": "^0.18.1",
+        "bootstrap": "^4.3.1",
+        "cross-env": "^5.1",
+        "jquery": "^3.4.1",
+        "laravel-mix": "^2.0",
+        "lodash": "^4.17.15",
+        "pdfmake": "^0.1.54",
+        "popper.js": "^1.14.7",
+        "vue": "^2.6.3"
+    },
+    "dependencies": {
+        "@amalto/typeahead-input": "^1.9.7",
+        "@fortawesome/fontawesome-svg-core": "^1.2.25",
+        "@saeris/vue-spinners": "^1.0.8",
+        "bootstrap-vue": "^2.1.0",
+        "laravel-vue-pagination": "^2.2.0",
+        "set-value": "^3.0.1",
+        "twodcube-vue-bootstrap-typeahead": "^0.2.7",
+        "vue-autosuggest": "^1.8.1",
+        "vue-bootstrap-table": "^0.1.2",
+        "vue-bootstrap-typeahead": "^0.2.6",
+        "vue-column-sortable": "0.0.1",
+        "vue-currency-filter": "^3.4.2",
+        "vue-date-pick": "^1.1.0",
+        "vue-organization-chart": "^1.1.6",
+        "vue-plain-pagination": "^0.3.0",
+        "vue-router": "^3.0.2",
+        "vue-simple-alert": "^1.1.1",
+        "vue-sweetalert": "^0.1.18",
+        "vue-sweetalert2": "^1.6.4",
+        "vue-template-compiler": "^2.6.3",
+        "vue2-datepicker": "^2.10.0",
+        "vue2-org-tree": "^1.1.1",
+        "vuejs-datepicker": "^1.5.4"
+    }
+}
