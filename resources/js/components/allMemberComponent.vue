@@ -1,5 +1,5 @@
 <template>
-<div class="row neja">
+<div class="row ">
 
     <div class=" col-md-12">
         <div class="tile">
